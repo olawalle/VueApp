@@ -1,0 +1,48 @@
+*{
+    font-family: 'Work Sans', sans-serif;
+}
+
+$devin-header-height: 65px;
+nav{
+    color: #ffffff;
+    border:0;
+    height:$devin-header-height; 
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+.myNav{
+    background-color: #1D4DAB;
+    font-family: 'Work Sans', sans-serif;
+    border:0;
+    padding: 10px;
+}
+
+nav a, nav a:hover, nav a:visited {
+    color: #fff
+}
+nav b{
+    font-size:16px
+}
+.title i{
+    font-size:18px;
+    margin-right: 12px
+}
+nav .title{
+    margin-left: 7px;
+    padding-top: 12px
+}
+nav .balance{
+    text-align: right;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 12px;
+    margin-right: 50px;
+}
+@media (max-width: 767px){
+    nav .title{
+        margin-left:3px
+    }
+    nav .balance{
+        margin-right: 5px;
+    }
+}
